@@ -1,0 +1,77 @@
+Traccia:
+Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario.
+Inserite nella vostra repo un semplice file di testo in cui elencate le colonne della vostra tabella complete di tipo di dato, attributi ed eventuale indice!
+
+
+DB CONCESSIONARIO AUTO USATA:
+
+ID - BIGINT - UNIQUE, NOT NULL, INCREMENT - Primary Key
+
+NUMERO-TELAIO - CHAR(17) -  
+
+PREZZO - MEDIUMINT -
+
+MARCA - VARCHAR(20) -
+
+MODELLO - VARCHAR(25) -
+
+CARBURANTE - VARCHAR(10) -
+
+VERSIONE - VARCHAR(10) -
+
+COLORE - VARCHAR(18) -
+
+CILINDRATA - FLOAT(2,1)
+
+CAVALLI - SMALLINT -
+
+POTENZA - SMALLINT -
+
+MESE-IMMATRICOLAZIONE - TINYINT - 
+
+ANNO-IMMATRICOLAZIONE - YEAR -
+
+POSTI - TINYINT -
+
+PORTE - TINYINT -
+
+KILOMETRI - MEDIUMINT -
+
+CLASSE-EMISSIONI - TINYINT-
+
+ABS -  TINYINT - 
+
+AIRBAG-ANTERIORI -  TINYINT -
+
+AIRBAG-POSTERIORI -  TINYINT-
+
+AIRBAG-LATERALI -  TINYINT -
+
+AUTORADIO -  TINYINT -
+
+ANTIFURTO -  TINYINT -
+
+CERCHI-LEGA -  TINYINT -
+
+ALZACRISTALLI-ELETTRICI -  TINYINT -
+
+CHIUSURA-CENTRALIZZATA -  TINYINT -
+
+ESP -  TINYINT -
+
+HOTSPOT-WIFI -  TINYINT -
+
+RUOTA-SCORTA -  TINYINT -
+
+SERVOSTERZO -  TINYINT -
+
+START&STOP -  TINYINT -
+
+TETTUCCIO-APRIBILE -  TINYINT -
+
+NAVIGATORE -  TINYINT -
+
+USB -  TINYINT -
+
+
+
